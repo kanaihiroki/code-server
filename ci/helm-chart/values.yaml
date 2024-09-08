@@ -38,6 +38,7 @@ priorityClassName: ""
 service:
   type: ClusterIP
   port: 8080
+  # loadBalancerIP:
 
 ingress:
   enabled: false

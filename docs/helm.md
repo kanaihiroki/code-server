@@ -91,6 +91,7 @@ and their default values.
 | securityContext.runAsUser                   | int    | `1000`                   |
 | service.port                                | int    | `8443`                   |
 | service.type                                | string | `"ClusterIP"`            |
+| service.loadBalancerIP                      | string | `""`                     |
 | serviceAccount.create                       | bool   | `true`                   |
 | serviceAccount.name                         | string | `nil`                    |
 | tolerations                                 | list   | `[]`                     |
